@@ -1,0 +1,7 @@
+; not , clr , inc , dec , jmp, bne , red , prn
+; valid:    red @r1
+
+, red @r1
+red @r1 ,
+red , @r1
+red ,, @r1

@@ -1,0 +1,7 @@
+; mov , cmp , add , sub , lea
+; valid:    mov A , @r1
+
+, mov A , @r1
+mov A , @r1,
+mov A ,, @r1
+mov A  @r1

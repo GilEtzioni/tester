@@ -1,0 +1,23 @@
+; stop
+
+stop 1
+stop @r1
+stop LABEL
+stop "hi"
+
+stop 1 , 1
+stop 1 , @r1
+stop 1 , LABEL
+
+stop @r1 , 1
+stop @r1 , @r1
+stop @r1 , LABEL
+
+stop LABEL , 1
+stop LABEL , @r1
+stop LABEL , LABEL
+
+stop "hi" , 1
+stop "hi" , @r1
+stop "hi" , LABEL
+stop "hi" , "hi"

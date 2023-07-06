@@ -1,0 +1,4 @@
+; lea {label} {label/register}
+
+lea LABEL , @r1
+lea LABEL , LABEL

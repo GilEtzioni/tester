@@ -1,0 +1,5 @@
+; LABEL: prn {number/label/register}
+
+LABEL: prn 1
+LABEL: prn @r1
+LABEL: prn LABEL

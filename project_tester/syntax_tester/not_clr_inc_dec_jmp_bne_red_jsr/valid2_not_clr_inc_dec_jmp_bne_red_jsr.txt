@@ -1,0 +1,4 @@
+; LABEL: clr {label/register}
+
+LABEL: clr @r1
+LABEL: clr FIVE

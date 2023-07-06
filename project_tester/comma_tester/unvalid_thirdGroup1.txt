@@ -1,0 +1,6 @@
+; rts , stop  --> can not contain label
+
+, stop
+,, stop
+stop ,
+stop ,,

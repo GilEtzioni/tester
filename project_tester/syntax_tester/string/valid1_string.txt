@@ -1,0 +1,3 @@
+; STR: .string "hi"     -->      must contain label
+
+STR: .string "hi"

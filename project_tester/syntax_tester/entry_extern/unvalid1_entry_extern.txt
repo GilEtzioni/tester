@@ -1,0 +1,27 @@
+; .extern LABEL     -->     can not contain label
+
+.extern
+
+.extern 1
+.extern @r1
+.extern "hi"
+
+.extern 1 , 1
+.extern 1 , @r1
+.extern 1 , LABEL
+.extern 1 , "hi"
+
+.extern @r1 , 1
+.extern @r1 , @r1
+.extern @r1 , LABEL
+.extern @r1 , "hi"
+
+.extern LABEL , 1
+.extern LABEL , @r1
+.extern LABEL , LABEL
+.extern LABEL , "hi"
+
+.extern "hi" , 1
+.extern "hi" , @r1
+.extern "hi" , LABEL
+.extern "hi" , "hi"

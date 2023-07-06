@@ -1,0 +1,25 @@
+; stop --> can not contain label
+
+LABEL: stop
+
+LABEL: stop 1
+LABEL: stop @r1
+LABEL: stop LABEL
+LABEL: stop "hi"
+
+LABEL: stop 1 , 1
+LABEL: stop 1 , @r1
+LABEL: stop 1 , LABEL
+
+LABEL: stop @r1 , 1
+LABEL: stop @r1 , @r1
+LABEL: stop @r1 , LABEL
+
+LABEL: stop LABEL , 1
+LABEL: stop LABEL , @r1
+LABEL: stop LABEL , LABEL
+
+LABEL: stop "hi" , 1
+LABEL: stop "hi" , @r1
+LABEL: stop "hi" , LABEL
+LABEL: stop "hi" , "hi"

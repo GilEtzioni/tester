@@ -1,0 +1,7 @@
+; .entry , .extern        -->         can not contain label
+; .entry HELLO
+
+, .entry HELLO
+.entry HELLO ,
+.entry , HELLO
+.entry ,, HELLO

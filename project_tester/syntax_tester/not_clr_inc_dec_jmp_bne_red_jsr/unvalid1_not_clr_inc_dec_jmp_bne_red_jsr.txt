@@ -1,0 +1,16 @@
+; clr {label/register}
+
+clr
+
+clr 1
+clr "hi"
+
+clr 1 , 1
+clr 1 , @r1
+clr 1 , FIVE
+clr 1 , "hi"
+
+clr "hi" , 1
+clr "hi" , @r1
+clr "hi" , LABEL
+clr "hi" , "hi"

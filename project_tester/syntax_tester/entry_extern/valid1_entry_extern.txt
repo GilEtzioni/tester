@@ -1,0 +1,3 @@
+; LABEL: .extern LABEL     -->     can not contain label
+
+.extern LABEL

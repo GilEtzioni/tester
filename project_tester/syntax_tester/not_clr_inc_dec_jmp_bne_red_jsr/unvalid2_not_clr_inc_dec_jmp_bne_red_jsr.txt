@@ -1,0 +1,16 @@
+; LABEL: clr {label/register}
+
+LABEL: clr
+
+LABEL: clr 1
+LABEL: clr "hi"
+
+LABEL: clr 1 , 1
+LABEL: clr 1 , @r1
+LABEL: clr 1 , FIVE
+LABEL: clr 1 , "hi"
+
+LABEL: clr "hi" , 1
+LABEL: clr "hi" , @r1
+LABEL: clr "hi" , LABEL
+LABEL: clr "hi" , "hi"

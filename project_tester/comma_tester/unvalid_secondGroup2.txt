@@ -1,0 +1,9 @@
+; not , clr , inc , dec , jmp, bne , red , prn
+; valid:    HELLO: red @r1
+
+, HELLO: red @r1
+HELLO: , red @r1
+HELLO: ,, red @r1
+HELLO: red @r1 ,
+HELLO: red , @r1
+HELLO: red ,, @r1

@@ -1,0 +1,27 @@
+; STR: .string "hi"     -->      must contain label
+
+STR: .string
+
+STR: .string 1
+STR: .string @r1
+STR: .string LABEL
+
+STR: .string 1 , 1
+STR: .string 1 , @r1
+STR: .string 1 , LABEL
+STR: .string 1 , "hi"
+
+STR: .string @r1 , 1
+STR: .string @r1 , @r1
+STR: .string @r1 , LABEL
+STR: .string @r1 , "hi"
+
+STR: .string LABEL , 1
+STR: .string LABEL , @r1
+STR: .string LABEL , LABEL
+STR: .string LABEL , "hi"
+
+STR: .string "hi" , 1
+STR: .string "hi" , @r1
+STR: .string "hi" , LABEL
+STR: .string "hi" , "hi"

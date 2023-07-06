@@ -1,0 +1,8 @@
+; XYZ: .data
+; valid: XYZ: .data 5 , +57 , -59
+
+, XYZ: .data 5 , +57 , -59
+XYZ: , .data 5 , +57 , -59
+XYZ: .data 5 , +57 , -59 ,
+XYZ: .data , 5 , +57 ,, -59
+XYZ: .data 5 ,, +57 , -59

@@ -1,0 +1,24 @@
+; prn {number/label/register}
+
+prn
+
+prn "hi"
+
+prn 1 , 1
+prn 1 , @r1
+prn 1 , LABEL
+
+prn @r1 , 1
+prn @r1 , @r1
+prn @r1 , LABEL
+
+prn LABEL , 1
+prn LABEL , @r1
+prn LABEL , LABEL
+
+prn "hi" , 1
+prn "hi" , @r1
+prn "hi" , LABEL
+prn "hi" , "hi"
+
+prn LABEL , @r1 , LABEL

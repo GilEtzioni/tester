@@ -1,0 +1,5 @@
+; prn {number/label/register}
+
+prn 1
+prn @r1
+prn LABEL

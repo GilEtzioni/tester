@@ -1,0 +1,9 @@
+; .string       --> must contain label
+; valid: STR: .string "hi"
+
+, STR: .string "hi"
+STR: , .string "hi"
+STR: ,, .string "hi"
+STR: .string , "hi"
+STR: .string ,, "hi"
+STR: .string "hi" ,

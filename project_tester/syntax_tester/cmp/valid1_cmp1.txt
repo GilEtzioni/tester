@@ -1,0 +1,15 @@
+; cmp {number/label/register} {number/label/register}
+
+cmp 1 , 1
+cmp 1 , @r1
+cmp 1 , FIVE
+
+cmp @r3 , 1
+cmp @r3 , @r3
+cmp @r3 , FIVE
+
+cmp FIVE , 1
+cmp FIVE , @r3
+cmp FIVE , FIVE
+
+cmp @r3 , FIVE , 8

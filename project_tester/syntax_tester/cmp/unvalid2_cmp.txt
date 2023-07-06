@@ -1,0 +1,17 @@
+; LABEL: cmp {number/label/register} {number/label/register}
+
+LABEL: cmp
+
+LABEL: cmp "hi"
+LABEL: cmp 1
+LABEL: cmp @r3
+LABEL: cmp FIVE
+
+LABEL: cmp 1 , "hi"
+LABEL: cmp @r3 , "hi"
+LABEL: cmp FIVE , "hi"
+
+LABEL: cmp "hi" , 1
+LABEL: cmp "hi" , @r1
+LABEL: cmp "hi" , LABEL
+LABEL: cmp "hi" , "hi"

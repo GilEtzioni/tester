@@ -1,0 +1,23 @@
+; LABEL: sub {number/label/register} {label/register}
+
+LABEL: sub
+
+LABEL: sub "hi"
+LABEL: sub 1
+LABEL: sub @r3
+LABEL: sub FIVE
+
+LABEL: sub @r3 , 1
+LABEL: sub 1 , 1
+LABEL: sub FIVE , 1
+
+LABEL: sub 1 , "hi"
+LABEL: sub @r3 , "hi"
+LABEL: sub FIVE , "hi"
+
+LABEL: sub "hi" , 1
+LABEL: sub "hi" , @r1
+LABEL: sub "hi" , LABEL
+LABEL: sub "hi" , "hi"
+
+LABEL: sub @r3 , FIVE , 8

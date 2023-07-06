@@ -1,0 +1,28 @@
+; LABEL: lea {label} {label/register}
+
+LABEL: lea
+
+LABEL: lea 1
+LABEL: lea @r1
+LABEL: lea LABEL
+LABEL: lea "hi"
+
+LABEL: lea 1 , 1
+LABEL: lea 1 , @r1
+LABEL: lea 1 , LABEL
+LABEL: lea 1 , "hi"
+
+LABEL: lea @r1 , 1
+LABEL: lea @r1 , @r1
+LABEL: lea @r1 , LABEL
+LABEL: lea @r1 , "hi"
+
+LABEL: lea LABEL , 1
+LABEL: lea LABEL , "hi"
+
+LABEL: lea "hi" , 1
+LABEL: lea "hi" , @r1
+LABEL: lea "hi" , LABEL
+LABEL: lea "hi" , "hi"
+
+LABEL: lea LABEL , @r1 , "hi"

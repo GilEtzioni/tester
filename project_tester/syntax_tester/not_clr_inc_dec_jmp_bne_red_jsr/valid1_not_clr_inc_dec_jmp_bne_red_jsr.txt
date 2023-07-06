@@ -1,0 +1,4 @@
+; clr {label/register}
+
+clr @r1
+clr FIVE

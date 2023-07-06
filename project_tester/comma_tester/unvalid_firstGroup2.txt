@@ -1,0 +1,9 @@
+; mov , cmp , add , sub , lea
+; valid:   HELLO: mov A , @r1
+
+, HELLO: , mov A , @r1
+HELLO: , mov A , @r1
+HELLO: ,, mov A , @r1
+HELLO: mov A , @r1 ,
+HELLO: mov A ,, @r1
+HELLO: mov A  @r1
